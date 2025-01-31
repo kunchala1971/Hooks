@@ -1,10 +1,14 @@
-import './App.css';
-import UseStateHook from './Hooks/UseStateHook';
+import React from 'react'
+import UseContextAPIHook from './Hooks/UseContextAPIHook'
+// import UseStateHook from './Hooks/UseStateHook'
 
-function App() {
-  return (
-   <UseStateHook/>
-  );
+const App = () => {
+	return (
+		<div>
+			{/* <UseStateHook/> */}
+			<UseContextAPIHook/>
+		</div>
+	)
 }
 
-export default App;
+export default App
