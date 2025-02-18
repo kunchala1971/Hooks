@@ -1,0 +1,12 @@
+.column{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+}
+li{
+    margin-left:10px;
+}
