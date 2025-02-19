@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
-import "./index.css"
+import "./index.css";
 const BASEURL = "https://jsonplaceholder.typicode.com/posts";
 const UseEffectHook = () => {
   const [data, setData] = useState([]);
-  const [input, setInput] = useState(' ');
+  const [input, setInput] = useState(" ");
   useEffect(() => {
     const fetchData = () => {
       fetch(BASEURL)
@@ -11,7 +11,6 @@ const UseEffectHook = () => {
         .then((data) => {
           setData(data.filter((user) => user.title.includes(input)));
         });
-    
     };
     fetchData();
   }, [input]);
