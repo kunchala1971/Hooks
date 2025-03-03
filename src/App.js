@@ -1,5 +1,6 @@
 import React from "react";
-import UseCallBackHook from "./Hooks/UseCallbackHook";
+import UseDebugValue from "./Hooks/UseDebugValue";
+// import UseCallBackHook from "./Hooks/UseCallbackHook";
 // import UseRefHook from "./Hooks/UseRefHook";
 // import UseEffectHook from "./Hooks/UseEffectHook";
 // import UseContextAPIHook from './Hooks/UseContextAPIHook'
@@ -11,7 +12,8 @@ const App = () => {
       {/* <UseContextAPIHook/> */}
       {/* <UseEffectHook /> */}
       {/* <UseRefHook/> */}
-      <UseCallBackHook/>
+      {/* <UseCallBackHook/> */}
+      <UseDebugValue/>
     </div>
   );
 };
