@@ -1,6 +1,6 @@
 import React from "react";
-import UseReducerHook from "./Hooks/UseReducerHook";
-
+import UseDefferedValueHook from "./Hooks/UseDefferedValueHook";
+// import UseReducerHook from "./Hooks/UseReducerHook";
 // import UserIdHook from "./Hooks/UseIDHook";
 // import UseDebugValue from "./Hooks/UseDebugValue";
 // import UseCallBackHook from "./Hooks/UseCallbackHook";
@@ -18,7 +18,8 @@ const App = () => {
       {/* <UseCallBackHook/> */}
       {/* <UseDebugValue/> */}
       {/* <UserIdHook/> */}
-      <UseReducerHook />
+      {/* <UseReducerHook /> */}
+      <UseDefferedValueHook/>
     </div>
   );
 };
