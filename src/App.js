@@ -1,5 +1,6 @@
 import React from "react";
-import UseTransitionHook from "./Hooks/UseTransitionHook";
+import UseLayoutEffectHook from "./Hooks/UseLayoutEffectHook";
+// import UseTransitionHook from "./Hooks/UseTransitionHook";
 // import UseDefferedValueHook from "./Hooks/UseDefferedValueHook";
 // import UseReducerHook from "./Hooks/UseReducerHook";
 // import UserIdHook from "./Hooks/UseIDHook";
@@ -21,7 +22,8 @@ const App = () => {
       {/* <UserIdHook/> */}
       {/* <UseReducerHook /> */}
       {/* <UseDefferedValueHook/> */}
-      <UseTransitionHook />
+      {/* <UseTransitionHook /> */}
+      <UseLayoutEffectHook />
     </div>
   );
 };
