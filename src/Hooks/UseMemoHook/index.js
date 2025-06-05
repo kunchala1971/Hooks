@@ -18,5 +18,4 @@ const UseMemoHookExample = () => {
     </div>
   )
 }
-
 export default UseMemoHookExample

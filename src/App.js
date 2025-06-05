@@ -1,5 +1,6 @@
 import React from "react";
-import UseMemoHookExample from "./Hooks/UseMemoHook";
+import ClassVideoPlayer from "./ClassVideoPlayer";
+// import UseMemoHookExample from "./Hooks/UseMemoHook";
 // import UseLayoutEffectHook from "./Hooks/UseLayoutEffectHook";
 // import UseTransitionHook from "./Hooks/UseTransitionHook";
 // import UseDefferedValueHook from "./Hooks/UseDefferedValueHook";
@@ -25,7 +26,8 @@ const App = () => {
       {/* <UseDefferedValueHook/> */}
       {/* <UseTransitionHook /> */}
       {/* <UseLayoutEffectHook /> */}
-      <UseMemoHookExample/>
+      {/* <UseMemoHookExample/> */}
+      <ClassVideoPlayer/>
         </div>
   );
 };
