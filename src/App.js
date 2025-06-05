@@ -1,5 +1,5 @@
 import React from "react";
-import ClassVideoPlayer from "./ClassVideoPlayer";
+// import ClassVideoPlayer from "./ClassVideoPlayer";
 // import UseMemoHookExample from "./Hooks/UseMemoHook";
 // import UseLayoutEffectHook from "./Hooks/UseLayoutEffectHook";
 // import UseTransitionHook from "./Hooks/UseTransitionHook";
@@ -12,6 +12,7 @@ import ClassVideoPlayer from "./ClassVideoPlayer";
 // import UseEffectHook from "./Hooks/UseEffectHook";
 // import UseContextAPIHook from './Hooks/UseContextAPIHook'
 // import UseStateHook from './Hooks/UseStateHook'
+import UseExternalStoreSyncHook from "./Hooks/UseExternalStoreSyncHook/Index";
 const App = () => {
   return (
     <div>
@@ -27,8 +28,9 @@ const App = () => {
       {/* <UseTransitionHook /> */}
       {/* <UseLayoutEffectHook /> */}
       {/* <UseMemoHookExample/> */}
-      <ClassVideoPlayer/>
-        </div>
+      {/* <ClassVideoPlayer/> */}
+      <UseExternalStoreSyncHook />
+    </div>
   );
 };
 
