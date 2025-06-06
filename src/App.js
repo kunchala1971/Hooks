@@ -1,4 +1,5 @@
 import React from "react";
+import UseImperativeHandleHook from "./Hooks/UserImperativeHandleHook/Index";
 // import UseInsertionEffectHook from "./Hooks/UseInsertionEffectHook/Index";
 // import UseMemoHookExample from "./Hooks/UseMemoHook";
 // import UseLayoutEffectHook from "./Hooks/UseLayoutEffectHook";
@@ -31,6 +32,7 @@ const App = () => {
       {/* <UseMemoHookExample/> */}
       {/* <UseExternalStoreSyncHook /> */}
       {/* <UseInsertionEffectHook/> */}
+      <UseImperativeHandleHook/>
     </div>
   );
 };
