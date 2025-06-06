@@ -1,6 +1,5 @@
 import React from "react";
-import UseInsertionEffectHook from "./Hooks/UseInsertionEffectHook/Index";
-// import ClassVideoPlayer from "./ClassVideoPlayer";
+// import UseInsertionEffectHook from "./Hooks/UseInsertionEffectHook/Index";
 // import UseMemoHookExample from "./Hooks/UseMemoHook";
 // import UseLayoutEffectHook from "./Hooks/UseLayoutEffectHook";
 // import UseTransitionHook from "./Hooks/UseTransitionHook";
@@ -30,9 +29,8 @@ const App = () => {
       {/* <UseTransitionHook /> */}
       {/* <UseLayoutEffectHook /> */}
       {/* <UseMemoHookExample/> */}
-      {/* <ClassVideoPlayer/> */}
       {/* <UseExternalStoreSyncHook /> */}
-      <UseInsertionEffectHook/>
+      {/* <UseInsertionEffectHook/> */}
     </div>
   );
 };
